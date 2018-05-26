@@ -1,0 +1,15 @@
+{
+  "name": "tradecontract",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tradefinancecontract.js",
+  "scripts": {
+    "start": "node tradefinancecontract.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fabric-shim": "^1.1.2"
+  }
+}
