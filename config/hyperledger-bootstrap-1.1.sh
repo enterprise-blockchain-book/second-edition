@@ -13,8 +13,7 @@ export CA_VERSION=$VERSION
 export THIRDPARTY_IMAGE_VERSION=0.4.6
 export ARCH=$(echo "$(uname -s|tr '[:upper:]' '[:lower:]'|sed 's/mingw64_nt.*/windows/')-$(uname -m | sed 's/x86_64/amd64/g')")
 export MARCH=$(uname -m)
-BINARY_FILE=hyperledger-fabric-${ARCH}-${VERSION}.tar.gz
-CA_BINARY_FILE=hyperledger-fabric-ca-${ARCH}-${CA_VERSION}.tar.gz
+
 
 dockerFabricPull() {
   local FABRIC_TAG=$1
